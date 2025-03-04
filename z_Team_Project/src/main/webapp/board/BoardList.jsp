@@ -9,11 +9,15 @@
 <title>InsertTitle</title>
 
 <script type="text/javascript">
-
+	
 </script>
 
 <style type="text/css">
-
+	#listBox {
+		width: 1000px;
+		display: 0;
+		margin: auto;
+	}
 </style>
 
 </head>
@@ -22,10 +26,11 @@
 
 
 <h1>게시판 목록</h1>
-	
+<div id="listBox">
+	<%for(int i=0; i<6; i++) {%>
+		<jsp:include page="./BoardOneLine.jsp"/>
 
-	${forEach}
-
-
+	<%} %>
+</div>
 </body>
 </html>
