@@ -7,12 +7,14 @@
 		display: flex;/* a 태그 안에 flex 적용 */
 		justify-content: space-between;
 		align-items: center; /* 수직 정렬 */
+		padding-top: 10px;
+		padding-bottom: 10px;
 		
 		
 	}
 	
 	.writer{
-
+		
 		margin-left: 20px;
 	}
 </style>

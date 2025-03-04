@@ -20,6 +20,10 @@
 		background-color: lightgray;
 		
 	}
+	#wrap{
+		min-height: 100%;
+		position: relative;
+	}
 
 
 </style>
@@ -27,7 +31,7 @@
 </head>
 
 <body>
-
+<div id="wrap">
 	<jsp:include page="./Header.jsp"/>
 	<jsp:include page="./Category_Main.jsp"/>
 
@@ -37,6 +41,6 @@
 	<jsp:include page="./Move_MrgPage.jsp"/>
 	<jsp:include page="./Footer.jsp"/>
 	
-
+</div>
 </body>
 </html>
