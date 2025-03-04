@@ -15,9 +15,10 @@
 	}
 	#container{
 		float: inherit;
+		top: 100px;
 		right: 100px;
 		margin: auto;
-		width: 500px;
+		width: 800px;
 		height: 500px;
 		background-color: lightgray;
 		
